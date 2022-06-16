@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+.clock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    background-color:green;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    color: blue;
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    position: relative;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.hand {
+    width: 50%;
+    right: 50%;
+    height: 6px;
+    background: #61afff;
+    position: absolute;
+    top: 50%;
+    border-radius: 6px;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    /* transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1); */
+  }
+
+
+.yelkovan{
+    height: 3px;
+    z-index: 10;
+    width: 220px;
+}
+.saniye{
+    background: #ee791a;
+    width: 220px;
+    height: 2px;
+}
+.akrep{
+    width: 120px;
+    z-index: 3;
+}
